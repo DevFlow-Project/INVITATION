@@ -12,6 +12,6 @@ jobs:
       - name: Create issue for new member
         uses: peter-evans/create-issue-from-file@v4
         with:
-          title: "New member joined: \${{ github.event.client_payload.username }}"
+          title: "New member joined: ${{ github.event.client_payload.username }}"
           content-file: .github/join-message.md
           labels: new-member
