@@ -1,6 +1,5 @@
 name: Handle New Org Member
 
-
 on:
   repository_dispatch:
     types: [user_joined_org]
